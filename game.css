@@ -1,5 +1,5 @@
 #h1 {
-    color:aqua;
+    color: aqua;
     font-size: 75px;
     text-align: center;
     margin-top: 2px;
@@ -31,7 +31,14 @@ body {
     border-style: solid;
     border-color: aqua;
     margin: -5px;
+    transition: transform 0.2s ease;
 
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    border-color: white;
 
 }
 
